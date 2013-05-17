@@ -1,13 +1,13 @@
 import os.path
 import sys
-sys.path += ['/path/to/topy']
+sys.path += ['/Users/marcus/Code/TodoFlow']
 
 ###################### Paths ######################
 
-inbox_path = 'path/to/Inbox.todo'
-projects_path = 'path/to/Projects.todo'
-onhold_path = 'path/to/Onhold.todo'
-archive_path = 'path/to/NOTES/Archive.todo'
+inbox_path = '/Users/marcus/DropboxMWermuth/Dropbox/Todo/Inbox.todo'
+projects_path = '/Users/marcus/DropboxMWermuth/Dropbox/Todo/Projects.todo'
+onhold_path = '/Users/marcus/DropboxMWermuth/Dropbox/Todo/Onhold.todo'
+archive_path = '/Users/marcus/DropboxMWermuth/Dropbox/Todo/Archive.todo'
 
 ###################################################
 
@@ -17,7 +17,7 @@ archive_path = 'path/to/NOTES/Archive.todo'
 # I use print_... scripts to put my todo list on
 # desktop with Nerdtools and somtimes I want
 # to hide it
-should_print_path = 'path/to/should_print'
+should_print_path = '/Users/marcus/Code/TodoFlow/utilities/should_print'
 
 ###################################################
 
@@ -31,7 +31,7 @@ tvseries_project_title = 'TV Series:'
 
 ################## log to day one #################
 
-logging_in_day_one_for_yesterday = True
+logging_in_day_one_for_yesterday = False
 
 # change if you store Day One entries somewhere else
 day_one_dir_path = os.path.expanduser(

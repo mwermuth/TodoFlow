@@ -1,9 +1,9 @@
-from config import inbox_path
+from config import projects_path
 
 done_tag = ' @done'
 
 def count_inbox():
-    with open(inbox_path, "r") as f:
+    with open(projects_path, "r") as f:
         count = 0
         for line in f:
             line = line.strip()
